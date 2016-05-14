@@ -1,74 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_weight="100"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".generals.activities.Song">
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+    </android.support.v7.widget.Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="85">
+        android:layout_margin="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="85"
+        android:background="@drawable/fonforsong">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/alfavit" />
-
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="2dp"
+        android:layout_height="2dp"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="15">
-
-        <ImageButton
-            android:id="@+id/button"
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginRight="20dp"
-            android:layout_weight="25"
-            android:background="@drawable/back"
-            android:onClick="backToMain"
-            android:text="back" />
+        android:layout_margin="10dp"
+        android:layout_weight="18"
+        android:background="@drawable/fonforsong">
 
         <ImageButton
             android:id="@+id/stop"
             android:layout_width="0dp"
-            android:layout_height="60dp"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_weight="25"
-            android:background="@drawable/stop"
+            android:background="@drawable/ic_stop"
             android:onClick="stop" />
 
         <ImageButton
             android:id="@+id/play"
             android:layout_width="0dp"
-            android:layout_height="60dp"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_marginRight="20dp"
             android:layout_weight="25"
-            android:background="@drawable/play"
+            android:background="@drawable/ic_play_"
             android:onClick="playSong" />
-
 
         <ImageButton
             android:id="@+id/pausa"
             android:layout_width="0dp"
-            android:layout_height="60dp"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_marginRight="20dp"
             android:layout_weight="25"
-            android:background="@drawable/pausa"
+            android:background="@drawable/ic_pause_"
             android:onClick="pausa" />
+
     </LinearLayout>
 </LinearLayout>
