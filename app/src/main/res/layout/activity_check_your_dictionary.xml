@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/bStartWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/bCheckWord"
+        android:layout_toStartOf="@+id/bCheckWord"
+        android:enabled="true"
+        android:onClick="startCheckWord"
+        android:text="@string/start" />
+
+
+    <TextView
+        android:id="@+id/tvShowWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bCheckWord"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:contentDescription="@string/letter" />
+
+    <EditText
+        android:id="@+id/etAddWord"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvShowWord"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="Put your answer"
+        android:inputType="none"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bCheckWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:enabled="false"
+        android:onClick="checkWord"
+        android:text="@string/checkThis" />
+
+    <Button
+        android:id="@+id/bBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bStartWord"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/bStartWord"
+        android:onClick="backToWord"
+        android:text="@string/backthis" />
+
+    <Chronometer
+        android:id="@+id/chronometer2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bCheckWord"
+        android:layout_toEndOf="@+id/bCheckWord"
+        android:layout_toRightOf="@+id/bCheckWord"
+        android:textSize="30sp" />
+</RelativeLayout>

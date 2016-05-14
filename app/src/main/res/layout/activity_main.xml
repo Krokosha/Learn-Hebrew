@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:orientation="vertical"
+    tools:context=".generals.activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="40"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/pechatnue"
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/songmain"
+            android:onClick="pechatLetters" />
+
+        <ImageButton
+            android:id="@+id/bProris"
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/checkyounew"
+            android:onClick="checkIntent"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/poem"
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/poemalhabet"
+            android:onClick="poempage" />
+
+        <ImageButton
+            android:id="@+id/check1"
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/songmainscreen"
+            android:onClick="songPage" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#d1d3e1</color>
+    <color name="colorAccent">#c94143</color>
+    <color name="colorOrange">#AFB42B</color>
+    <color name="colorForBar">#FF5722</color>
+    <color name="colorGreen">#8BC34A</color>
+    <color name="background_material_light">#090909</color>
+    <color name="foreground_material_light">#fcfcfc</color>
+    <color name="black">#fdffffff</color>
+    <color name="white">#ffffff</color>
+
+</resources>

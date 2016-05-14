@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#40e788</item>
+        <item name="android:iconPreview">@drawable/stardavida</item>
+        <item name="colorPrimaryDark">#68EFAD</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">#454444</item>
+
+    </style>
+</resources>

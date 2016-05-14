@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".generals.activities.AddWords">
+
+    <EditText
+        android:id="@+id/etHebrewWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/setHerbrewWord"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+
+    <EditText
+        android:id="@+id/etTranslation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/setTranslation"
+        android:layout_below="@+id/etHebrewWord"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/etTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/setTranslate"
+        android:layout_below="@+id/etTranslation"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/dSaveWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="saveWord"
+        android:text="@string/save"
+        android:layout_alignTop="@+id/bBack"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:text="@string/back"
+        android:layout_below="@+id/etTranslate"
+        android:layout_alignRight="@+id/etTranslate"
+        android:layout_alignEnd="@+id/etTranslate"
+        android:layout_marginTop="123dp" />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Изучай алфавит</string>
+    <string name="pechat">Печатные буквы</string>
+    <string name="propis">Прописные буквы</string>
+    <string name="previous">previous</string>
+    <string name="next">next</string>
+    <string name="imagePechat">imagePecat</string>
+    <string name="imagePropis">imagePropis</string>
+    <string name="check">Проверь себя</string>
+    <string name="myDictionary">my dictionary</string>
+    <string name="learnNew">i want learn words from my dictionary</string>
+    <string name="checkOne">Проверь</string>
+    <string name="setHerbrewWord">Write please your Hebrew word</string>
+    <string name="setTranslation">Write please transcription</string>
+    <string name="setTranslate">Write please translate word</string>
+    <string name="save">save</string>
+    <string name="back">back</string>
+    <string name="start">Start</string>
+    <string name="letter">letter</string>
+    <string name="checkThis">Check</string>
+    <string name="backthis">BACK</string>
+    <string name="newWords">add new words</string>
+    <string name="thisEd">add new words</string>
+    <string name="alphabet">alphabet</string>
+    <string name="dictionary">My dictionary</string>
+    <string name="song">Let"s sing it!</string>
+    <string name="learnHerbrew">LEARN HEBREW</string>
+    <string name="leter">letter</string>
+    <string name="audio">audio</string>
+    <string name="leftSing">leftSing</string>
+    <string name="rightSing">rightSing</string>
+    <string name="word">word</string>
+    <string name="forHerbrew">for hebrew</string>
+    <string name="forTrans">for transcription</string>
+    <string name="fortrans">for translate</string>
+    <string name="dialog_title" />
+    <string name="saving">Please wait. Word is saving</string>
+    <string name="translate">Translate word</string>
+    <string name="transcription">Transcription word</string>
+    <string name="wordHebrew">Hebrew word</string>
+    <string name="singUp">Sing up</string>
+    <string name="logIn">Log in</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+
+    <string name="action_dictionary">My Dictionary</string>
+    <string name="action_alphabet">Hebrew Alphabet</string>
+    <string name="action_logOut">Log out</string>
+    <string name="action_login">Log in</string>
+    <string name="krokosha">KROKOSHA</string>
+    <string name="alphabet1">Алфавит</string>
+
+        <string name="poem">Как запомнить алфавит?\n\n
+Раз задумался Давид,\n
+как запомнить алфавит.\n
+И решили буквы: что же,\n
+в этом деле мы поможем!\n
+Заходи к нам! Хоть сейчас!\n
+И послушай наш рассказ.\n
+* * *\n
+Буква АЛЕФ с буквой БЕТ\n
+просыпаются чуть свет.\n
+Буква ГИМЕЛЬ с буквой ДАЛЕТ\n
+их в окошко увидали.\n\n
+Тут явилась буква hЕЙ,\n
+закричала: «Поскорей\n
+разбудите ВАВ и ЗАИН,\n
+здесь Читатель — наш хозяин!»\n\n
+«Ой! Читатель тут как тут!» —\n
+закричали ХЕТ, ТЕТ, ЙУД.\n
+Но обычными делами\n
+занимались КАФ и ЛАМЕД.\n\n
+Прибежала буква МЭМ,\n
+принесла конфеты всем,\n
+но конфеты съели сами\n
+буква НУН и САМЕХ.\n\n
+Тут примчались АЙН и ПЭЙ:\n
+«Эй! Читатель у дверей!»\n\n
+ЦАДИ, КУФ бегут с приветом,\n
+РЕШ и ШИН — за ними следом,\n
+ТАВ несется впереди:\n\n
+«Эй, Читатель! Заходи!»\n
+    </string>
+
+
+</resources>
