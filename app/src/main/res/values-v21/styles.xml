@@ -1,16 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="windowActionBar">false</item>
-        <!-- colorPrimary is used for coloring the Toolbar -->
-        <item name="colorPrimary">@color/holo_green_light</item>
-        <!-- colorPrimaryDark is used for coloring the status bar -->
-        <item name="colorPrimaryDark">@color/darker_gray</item>
-        <!-- colorAccent is used as the default value for colorControlActivated
-             which is used to tint widgets -->
-        <item name="colorAccent">#FFAB40</item>
-        <item name="android:textColorPrimary">@color/primary_text_material_dark</item>
-    </style>
 
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#40e788</item>
+        <item name="android:iconPreview">@drawable/stardavida</item>
+        <item name="colorPrimaryDark">#68EFAD</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">#454444</item>
+
+    </style>
 </resources>

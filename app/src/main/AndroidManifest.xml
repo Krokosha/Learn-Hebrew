@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.krokosha.aleksey.learnhebrew">
+    package="com.example.aleksey.learnhebrew">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,7 +12,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/iconalphabetbook"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -28,7 +28,8 @@
         <activity android:name=".generals.activities.Song" />
         <activity android:name=".generals.activities.MainActivity" />
         <activity android:name=".generals.activities.SimpleCheckABC" />
-        <activity android:name=".generals.activities.PoemAlphabet" />
+
+        <activity android:name=".generals.activities.PoemAlphabet"></activity>
     </application>
 
 </manifest>

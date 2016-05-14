@@ -2,23 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fonforsong"
+    android:background="#ffffff"
+    android:paddingLeft="5dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
     android:orientation="vertical">
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="58dp"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:titleTextColor="#ffffff">
-
-    </android.support.v7.widget.Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="4dp"
         android:layout_weight="100"
         android:orientation="vertical">
 
@@ -112,7 +105,7 @@
                     android:layout_weight="85"
                     android:onClick="poempage"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/hand"/>
+                    android:background="@drawable/poemalhabet"/>
 
                 <TextView
                     android:layout_width="match_parent"

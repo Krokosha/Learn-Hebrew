@@ -4,12 +4,12 @@
     android:thickness="0dp"
     >
     <stroke
-        android:color="#101010"
-        android:width="0.5dp" />
+        android:color="#aafcd4"
+        android:width="1dp" />
     <corners android:radius="20dp" />
    <gradient
         android:angle="270"
-        android:endColor="#4CAF50"
-        android:startColor="#4CAF50"
+        android:endColor="#aafcd4"
+        android:startColor="#aafcd4"
         android:type="linear" />
 </shape>
