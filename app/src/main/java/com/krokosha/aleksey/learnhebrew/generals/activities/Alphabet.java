@@ -26,7 +26,7 @@ public class Alphabet extends AppCompatActivity {
         gridView = (GridView) findViewById(R.id.gridView);
 //        gridView.setRotationY(180);
         gridView.setAdapter(adapter);
-        gridView.invalidate();
+
 //        letters.removeAll(letters);
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -39,6 +39,12 @@ public class Alphabet extends AppCompatActivity {
         });
 
         initToolBar();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        gridView.invalidate();
     }
 
     @Override

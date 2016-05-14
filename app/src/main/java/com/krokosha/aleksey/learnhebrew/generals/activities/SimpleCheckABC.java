@@ -98,7 +98,7 @@ public class SimpleCheckABC extends AppCompatActivity {
     protected void startCheck() {
         etInputLatter.setVisibility(View.VISIBLE);
 
-        bCheck.setEnabled(true);
+        bCheck.setVisibility(View.VISIBLE);
 //        bStart.setEnabled(false);
 
         bStart.setVisibility(View.INVISIBLE);
