@@ -6,9 +6,15 @@
     <color name="colorOrange">#AFB42B</color>
     <color name="colorForBar">#FF5722</color>
     <color name="colorGreen">#8BC34A</color>
-    <color name="background_material_light">#090909</color>
-    <color name="foreground_material_light">#fcfcfc</color>
-    <color name="black">#fdffffff</color>
+    <color name="black">#0e0e0e</color>
     <color name="white">#ffffff</color>
+    <color name="background_material_dark">#ffffff</color>
+    <color name="primary_text_default_material_dark">#000000</color>
+    <color name="primary_text_material_dark">#fefafa</color>
+    <color name="holo_green_light">#2196f3</color>
+    <color name="darker_gray">#1b42cc</color>
+    <color name="accent_material_dark_1">#060606</color>
+    <color name="primary_material_dark">#050505</color>
+    <color name="background_dark">#fffefe</color>
 
 </resources>
